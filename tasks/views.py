@@ -42,9 +42,6 @@ def complete_task_view(req , index):
 
 
 def completed_task_view(req):
-    context = {
-        
-    }
     return render(req , "completed.html" , {"tasks" : completed_task})
 
 
